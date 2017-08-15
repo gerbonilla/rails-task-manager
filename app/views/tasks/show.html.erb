@@ -1,0 +1,5 @@
+<h2><%= @task.title %></h2>
+<p><%= @task.description %></p>
+<p><%= @task.completed ? "completed" : "not completed" %></p>
+
+<%= link_to "See All Tasks", tasks_path %>
